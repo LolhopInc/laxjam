@@ -13,3 +13,9 @@ class Player(GameObject):
     def update():
         #called once per frame
         #animation code
+
+    def runTo(target):
+        #set velocities to RUN to given point
+
+    def strafeTo(target):
+        #set velocities to STRAFE to given point

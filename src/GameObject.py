@@ -7,6 +7,7 @@ class GameObject(pygame.sprite.Sprite):
         self.loc = location
         self.radius = radius
         self.size = radius * 2 + 1
+        
+        self.vel = Point(0,0)
 
         self.rect = pygame.Rect(self.loc.x - self.radius, self.loc.y + self.radius, self.size, self.size)
-        

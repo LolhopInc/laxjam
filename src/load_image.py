@@ -1,6 +1,5 @@
 #load_image.py
 
-#Patrick Higgins
 #Shorthand to load image from assets directory
 
 import os, sys, pygame
